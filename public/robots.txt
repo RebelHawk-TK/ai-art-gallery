@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://rebelhawk-tk.github.io/ai-art-gallery/sitemap.xml

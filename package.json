@@ -3,9 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --turbopack",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "prebuild": "tsx scripts/build-catalog.ts && tsx scripts/build-shopify-links.ts",
+    "catalog": "tsx scripts/build-catalog.ts",
+    "shopify-links": "tsx scripts/build-shopify-links.ts"
   },
   "dependencies": {
     "next": "16.1.6",
@@ -17,7 +20,10 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "@types/sharp": "^0.31.1",
+    "sharp": "^0.34.5",
     "tailwindcss": "^4",
+    "tsx": "^4.21.0",
     "typescript": "^5"
   }
 }
