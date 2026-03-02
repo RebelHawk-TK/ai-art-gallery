@@ -15,5 +15,5 @@ export function formatNumber(n: number): string {
 }
 
 export function getBasePath(): string {
-  return process.env.NODE_ENV === "production" ? "/ai-art-gallery" : "";
+  return "";
 }

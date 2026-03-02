@@ -32,7 +32,7 @@ const ORIGINALS_DIR = path.join(IMAGES_DIR, "originals");
 const CATALOG_PATH = path.join(PROJECT_ROOT, "src", "data", "catalog.json");
 const SITEMAP_PATH = path.join(PUBLIC_DIR, "sitemap.xml");
 
-const BASE_URL = "https://rebelhawk-tk.github.io/ai-art-gallery";
+const BASE_URL = "https://gallery.moderndesignconcept.com";
 
 const KNOWN_STYLES = [
   "cafe_terrace",
