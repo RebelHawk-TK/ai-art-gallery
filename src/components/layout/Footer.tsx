@@ -28,7 +28,7 @@ export default function Footer() {
           </div>
 
           {/* Navigation */}
-          <nav className="flex items-center gap-6">
+          <nav className="flex items-center gap-6 flex-wrap justify-center">
             {FOOTER_LINKS.map((link) => (
               <Link
                 key={link.href}
@@ -45,6 +45,22 @@ export default function Footer() {
               className="text-sm text-gallery-accent transition-colors duration-300 hover:text-gallery-accent-hover"
             >
               Shop
+            </a>
+            <a
+              href="https://www.instagram.com/mdcmoderndesignconcept/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm text-gallery-muted transition-colors duration-300 hover:text-gallery-text"
+            >
+              Instagram
+            </a>
+            <a
+              href="https://www.tiktok.com/@moderndesignconcept"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm text-gallery-muted transition-colors duration-300 hover:text-gallery-text"
+            >
+              TikTok
             </a>
           </nav>
         </div>
