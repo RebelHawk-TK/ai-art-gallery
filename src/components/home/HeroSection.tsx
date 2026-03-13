@@ -28,7 +28,7 @@ export function HeroSection({ basePath, artwork }: HeroSectionProps) {
             alt="Gallery hero background"
             className="h-full w-full object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-b from-gallery-bg/70 via-gallery-bg/50 to-gallery-bg" />
+          <div className="absolute inset-0 bg-gradient-to-b from-gallery-bg/80 via-gallery-bg/65 to-gallery-bg" />
         </div>
       )}
 
